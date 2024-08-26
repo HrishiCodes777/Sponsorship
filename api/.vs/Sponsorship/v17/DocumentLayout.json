@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\dao\\sponsorshipdaoimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:dao\\sponsorshipdaoimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\controllers\\sponsorshipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:controllers\\sponsorshipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\models\\matchpaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:models\\matchpaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\models\\sponsorpaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:models\\sponsorpaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\models\\matchsponsordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:models\\matchsponsordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\dao\\isponsorshipdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:dao\\isponsorshipdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|c:\\users\\addagatla.gangadhar\\desktop\\sponsorship\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8896C06D-F581-4136-A1C3-874BA19FE8A7}|Sponsorship.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatchSponsorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\MatchSponsorDetails.cs",
+              "RelativeDocumentMoniker": "Models\\MatchSponsorDetails.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\MatchSponsorDetails.cs",
+              "RelativeToolTip": "Models\\MatchSponsorDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T17:30:26.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SponsorPaymentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\SponsorPaymentDetails.cs",
+              "RelativeDocumentMoniker": "Models\\SponsorPaymentDetails.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\SponsorPaymentDetails.cs",
+              "RelativeToolTip": "Models\\SponsorPaymentDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:28:09.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchPaymentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\MatchPaymentDetails.cs",
+              "RelativeDocumentMoniker": "Models\\MatchPaymentDetails.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\MatchPaymentDetails.cs",
+              "RelativeToolTip": "Models\\MatchPaymentDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:27:45.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SponsorshipController.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Controllers\\SponsorshipController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SponsorshipController.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Controllers\\SponsorshipController.cs",
+              "RelativeToolTip": "Controllers\\SponsorshipController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T12:03:52.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SponsorshipDaoImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\DAO\\SponsorshipDaoImplementation.cs",
+              "RelativeDocumentMoniker": "DAO\\SponsorshipDaoImplementation.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\DAO\\SponsorshipDaoImplementation.cs",
+              "RelativeToolTip": "DAO\\SponsorshipDaoImplementation.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwBQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:43:04.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISponsorshipDao.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\DAO\\ISponsorshipDao.cs",
+              "RelativeDocumentMoniker": "DAO\\ISponsorshipDao.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\DAO\\ISponsorshipDao.cs",
+              "RelativeToolTip": "DAO\\ISponsorshipDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:42:04.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:40:28.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\addagatla.gangadhar\\Desktop\\Sponsorship\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T10:22:40.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

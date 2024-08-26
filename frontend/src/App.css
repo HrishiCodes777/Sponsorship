@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #1d3557;
+    --secondary-color: #457b9d;
+    --text-color: #343a40;
+    --background-color: #f8f9fa;
+    --white-color: #ffffff;
+    --table-row-bg: #e9ecef;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.banner {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: var(--white-color);
+}
+
+.table thead {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.table thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: var(--table-row-bg);
+}
+
+.table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Payment Form Container */
+.add-payment-form-ct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color-background);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--color-text);
+}
+
+.form-input input, .form-input select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--color-input-bg);
+    color: var(--color-input-text);
+}
+
+.submit-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: var(--secondary-color);
+}

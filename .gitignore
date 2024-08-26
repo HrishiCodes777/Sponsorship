@@ -1,0 +1,10 @@
+node_modules/
+
+bin/
+Properties/
+obj/
+
+appsettings.Development
+appsettings
+Sponsorship.csproj
+Sponsorship.http
