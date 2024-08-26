@@ -2,19 +2,19 @@ import { useContext, useState } from "react"
 import { AppContext } from "../context/AppContext"
 
 export default function PaymentForm() {
-    const {addPayment} = useContext(AppContext);
+    const { addPayment } = useContext(AppContext);
 
-    const [paymentData,setPaymentData] = useState({
+    const [paymentData, setPaymentData] = useState({
         contractId: '',
         paymentDate: '',
-        paymentAmount: '',
+        amountPaid: '',
         paymentStatus: 'Pending'
     });
 
     const handleChange = (event) => {
-        const {name,value} = event.target;
-        setPaymentData({...paymentData, [name]: value });
-    }
+        const { name, value } = event.target;
+        setPaymentData({ ...paymentData, [name]: value });
+    };
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -22,11 +22,11 @@ export default function PaymentForm() {
         setPaymentData({
             contractId: '',
             paymentDate: '',
-            paymentAmount: '',
+            amountPaid: '',
             paymentStatus: 'Pending'
         });
         alert('Payment added');
-    }
+    };
 
     return (
         <form className="form" onSubmit={handleSubmit}>
@@ -39,8 +39,8 @@ export default function PaymentForm() {
                 <input type="date" id="paymentDate" name="paymentDate" value={paymentData.paymentDate} onChange={handleChange} required />
             </div>
             <div className="form-input">
-                <label htmlFor="paymentAmount">Payment Amount</label>
-                <input type="number" id="paymentAmount" name="paymentAmount" value={paymentData.paymentAmount} onChange={handleChange} required />
+                <label htmlFor="amountPaid">Payment Amount</label>
+                <input type="number" step="any" id="amountPaid" name="amountPaid" value={paymentData.amountPaid} onChange={handleChange} required />
             </div>
             <div className="form-input">
                 <label htmlFor="paymentStatus">Payment Status</label>
@@ -49,7 +49,7 @@ export default function PaymentForm() {
                     <option value="Completed">Completed</option>
                 </select>
             </div>
-            <input type="submit" className="submit-button" value="Add Payment"/>
+            <input type="submit" className="submit-button" value="Add Payment" />
         </form>
     )
 }
