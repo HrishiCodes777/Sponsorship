@@ -4,7 +4,8 @@ bin/
 Properties/
 obj/
 
-appsettings.Development
-appsettings
+appsettings.Development.json
+appsettings.json
 Sponsorship.csproj
 Sponsorship.http
+Sponsorship.sln
