@@ -136,3 +136,50 @@ main {
 .submit-button:hover {
     background-color: var(--secondary-color);
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--white-color);
+    border: 1px solid var(--table-row-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-item {
+    margin-bottom: 15px;
+}
+
+.card-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.card-item {
+    color: var(--text-color);
+    font-size: 0.95em;
+}
+
+.card-item:nth-child(even) {
+    background-color: var(--table-row-bg);
+    padding: 10px;
+    border-radius: 4px;
+}

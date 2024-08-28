@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import Table from "../components/reusable/Table";
+import Card from "../components/reusable/Card";
 
 export default function MatchPayments() {
     const { matchPayments, error } = useContext(AppContext);
@@ -19,7 +20,8 @@ export default function MatchPayments() {
     return (
         <div>
             <h2>Match Payments</h2>
-            <Table columns={columns} data={matchPayments}/>
+            {/* <Table columns={columns} data={matchPayments}/> */}
+            <Card data={matchPayments} columns={columns}/>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import Table from "../components/reusable/Table";
+import Card from "../components/reusable/Card";
 
 export default function MatchSponsors() {
     const { matchSponsors, error } = useContext(AppContext);
@@ -18,7 +19,8 @@ export default function MatchSponsors() {
     return (
         <div>
             <h2>Match Sponsors</h2>
-            <Table columns={columns} data={matchSponsors}/>
+            {/* <Table columns={columns} data={matchSponsors}/> */}
+            <Card columns={columns} data={matchSponsors}/>
         </div>
     );
 }

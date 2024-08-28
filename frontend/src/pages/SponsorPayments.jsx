@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import Table from "../components/reusable/Table";
+import Card from "../components/reusable/Card";
 
 export default function SponsorPayments() {
     const { sponsorPayments, error } = useContext(AppContext);
@@ -20,7 +21,8 @@ export default function SponsorPayments() {
     return (
         <div>
             <h2>Sponsor Payments</h2>
-            <Table columns={columns} data={sponsorPayments}/>
+            {/* <Table columns={columns} data={sponsorPayments}/> */}
+            <Card columns={columns} data={sponsorPayments}/>
         </div>
     );
 }
