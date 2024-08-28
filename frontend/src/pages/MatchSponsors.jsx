@@ -5,7 +5,11 @@ import Table from "../components/reusable/Table";
 export default function MatchSponsors() {
     const { matchSponsors, error } = useContext(AppContext);
 
-    const columns = ['Sponsor Name','Industry','No of Matches'];
+    const columns = [
+        { label: 'Sponsor Name', key: 'sponsorName' },
+        { label: 'Industry', key: 'industryType' },
+        { label: 'No Of Matches', key: 'noOfMatches' },
+    ];
 
     if (error.matchSponsors) {
         return <div>Error: {error.matchSponsors}</div>;
